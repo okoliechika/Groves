@@ -1,0 +1,61 @@
+.landing-page{
+    height: 100vh;
+    width: 100wh;
+   background-size: cover;
+   position: relative;
+   background-image: url(../assets/assets/banner.jpg);
+   background-size: cover;
+    
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100wh;
+    background: #00000088;
+}
+
+.landing-page::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+  
+}
+
+.contents{
+    position: relative;
+    z-index: 2;
+}
+
+.contents >.textarea{
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* background: pink; */
+}
+
+
+.contents > .textarea h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.textarea > div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.textarea > div p{
+    width: 60%;
+    color: #dbdbdb;
+}
+
+
